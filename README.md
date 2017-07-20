@@ -30,6 +30,8 @@ http.createServer((req, res) => {
 })
 ```
 
+This modules uses [nextjs](https://github.com/zeit/next.js) to setup and create a HTML server.
+
 ## Installation
 
 ```shell
