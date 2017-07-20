@@ -3,6 +3,7 @@
  */
 
 const next = require('next')
+const salute = require('salute')
 const parse = require('url').parse
 
 
