@@ -8,7 +8,7 @@ const parse = require('url').parse
 
 
 /**
- * Create a nextjs app manner service.
+ * Create a nextjs app as a manner service.
  *
  * @param {String} dir
  * @return {Function}
@@ -24,7 +24,7 @@ module.exports = function (dir) {
   const environment = app.prepare()
   return salute((req, res) => {
     return environment.then(() => {
-      router(req, res, parse(req.url, true))
+      return router(req, res, parse(req.url, true))
     })
-  }, 'html')
+  })
 }

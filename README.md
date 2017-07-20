@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/npm/dm/manner-react.svg)](http://npm-stat.com/charts.html?package=manner-react)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
-Create HTML server that plays well with [Manner](https://github.com/tether/manner) and where pages are built using [React](https://github.com/facebook/react) 
+Create HTML server that plays well with [Manner](https://github.com/tether/manner) and where pages are built using [React](https://github.com/facebook/react)
 
 ## Usage
 
@@ -14,10 +14,16 @@ const http = require('http')
 const react = require('manner-react')
 
 /**
- * Create HTML server following the manner spec.
+ * Create HTML server following the manner spec
+ * from a folder called pages at __dirname
  */
 
 const service = react(__dirname)
+
+/**
+ * Create HTTP server returning pages
+ * built in React.
+ */
 
 http.createServer((req, res) => {
   service(req, res).pipe(res)

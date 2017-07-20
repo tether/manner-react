@@ -11,7 +11,10 @@
     "url": "git+https://github.com/tether/manner-react.git"
   },
   "keywords": [
-    "tether"
+    "manner",
+    "react",
+    "next",
+    "html"
   ],
   "author": "Olivier Wietrich, Petrofeed Inc",
   "license": "MIT",
