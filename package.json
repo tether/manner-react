@@ -1,0 +1,29 @@
+{
+  "name": "manner-react",
+  "version": "1.0.0",
+  "description": "Create HTML pages using React and Manner",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tether/manner-react.git"
+  },
+  "keywords": [
+    "tether"
+  ],
+  "author": "Olivier Wietrich, Petrofeed Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tether/manner-react/issues"
+  },
+  "homepage": "https://github.com/tether/manner-react#readme",
+  "devDependencies": {
+    "tape": "*"
+  },
+  "dependencies": {
+    "next": "^2.4.7",
+    "salute": "^1.1.1"
+  }
+}
