@@ -1,6 +1,5 @@
 # Manner-React
 
-[![Build Status](https://travis-ci.org/tether/manner-react.svg?branch=master)](https://travis-ci.org/tether/manner-react)
 [![NPM](https://img.shields.io/npm/v/manner-react.svg)](https://www.npmjs.com/package/manner-react)
 [![Downloads](https://img.shields.io/npm/dm/manner-react.svg)](http://npm-stat.com/charts.html?package=manner-react)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
